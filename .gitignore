@@ -1,0 +1,18 @@
+# downloaded tools and runtime state (see docs/adr/0001)
+app/runtime/
+app/tools/
+app/.state/
+
+# the user's library
+videos/
+
+# developer-only e2e tooling
+tests/e2e/node_modules/
+tests/e2e/.browsers/
+tests/e2e/test-results/
+tests/e2e/playwright-report/
+tests/e2e/.tmp/
+
+# design review captures and detector cache (regenerated)
+.impeccable/review/
+.impeccable/hook.cache.json

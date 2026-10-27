@@ -1,0 +1,12 @@
+{
+  "name": "localpress-e2e",
+  "private": true,
+  "type": "module",
+  "description": "Developer-only browser tests. The app itself has no dependencies (docs/adr/0001).",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0"
+  }
+}

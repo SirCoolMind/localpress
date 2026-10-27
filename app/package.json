@@ -1,0 +1,6 @@
+{
+  "name": "localpress",
+  "private": true,
+  "type": "module",
+  "description": "No dependencies on purpose: Node built-ins only (docs/adr/0001)."
+}
